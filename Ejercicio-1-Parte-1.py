@@ -1,0 +1,25 @@
+print("Empezando a trabajar con Python")#Uso la función print para mostrar texto en pantalla
+print("Realizado por: Verónica Aillón Carrasco")
+print("")
+print("Consultando los tipos de valores:")
+print("")
+print("El tipo de dato de 875 es:")
+print(type(875))# La función type sirve para identificar el tipo de dato
+print("")
+print("El tipo de dato de 4.89 es:")
+print(type(4.89))
+print("")
+print("El tipo de dato del texto: Now is better than never. es:")
+print(type("Now is better than never."))
+print("")
+print("El tipo de dato de 1.32 es:")
+print(type(1.32))
+print("")
+print("¿El valor 5 + 8i corresponde a un valor entero?")
+print(isinstance(5 + 8j,int))# En Python la parte imaginaria se escribe con la letra j en lugar de i
+print("")
+print("¿El valor 8.2 corresponde a un valor entero?")
+print(isinstance(8.2,int))# La función isinstance sirve para realizar compraciones de valor 
+print("")
+print("¿El texto: Readability counts. corresponde a un string?")
+print(isinstance("Readability counts.",str))
